@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5186235315.js" crossorigin="anonymous"></script>
+    <title>AJ Sahagun</title>
+  </head>
+
+  <body>
+    <header class="header container">
+      <nav>
+        <button class="header__logo">
+          <i class="fas fa-code" color="#2d2d30"></i>
+          <a href="#home">AJS_</a>
+        </button>
+
+        <ul class="header__menu">
+          <li><a class="header__link" href="#home">Home</a></li>
+          <li><a class="header__link" href="#home">About</a></li>
+          <li><a class="header__link" href="#hobbies">Hobbies</a></li>
+          <li><a class="header__link" href="#favorites">Favorites</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li class="header__line"></li>
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+
+        <button class="header__bars">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+
+    <!--Mobile Navigation-->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#home">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#hobbies">Hobbies</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#favorites">Favorites</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of Mobile Navigation-->
+
+
+    <main>
+      <video autoplay muted loop class="hero__bg" src="/BG1.mp4"></video>
+      <section class="hero container">
+        <h3 class="hero__subtitle">Hi, I am</h3>
+        <h1 class="hero__title">>AARON JOHN SAHAGUN_</h1>
+        <h2 class="hero__description">3rd year<br>
+          BS Computer Science student</h2>
+
+        <a class="hero__btn btn" href="mailto:21-04332@g.batstate-u.edu.ph" target="_blank">Email me</a>
+        <a class="hero__btn btn" href="https://www.facebook.com/AaronSahagun.AJ" target="_blank">Add me</a>
+
+        <img class="hero__img" src="/AJS.png" alt="Aaron John Sahagun">
+      </section>
+
+
+      <section class="about container">
+        <div class="about__container">
+          <fieldset class="about__border">
+            <legend class="about__title">ABOUT ME</legend>
+            <img class="about__img" src="/About.png" alt="Aaron John Sahagun looking at the bottom-right">
+  
+            <div class="about__text">
+              <h4 class="about__subtitle">3rd year BS Computer Science student <br> Batangas State University - The National Engineering University</h4>
+              <p class="about__description">I am flexible, dedicated, and hardworking individual who can adapt in any given type of work while still able to provide high standard outcomes. I have a good sense of humor but also reliable and responsible when it comes to work. I am willing to engage into new experiences in order to satiate my hunger for learning.</p>
+              <p class="about__description">"The present is the building block of the future. - AJS_"</p>
+              <a class="about__social" href="https://www.facebook.com/AaronSahagun.AJ" target="_blank"><i class='fab fa-facebook-f'></i></a>
+              <a class="about__social" href="https://twitter.com/AJSahagun_" target="_blank"><i class='fab fa-twitter'></i></a>
+              <a class="about__social" href="mailto:21-04332@g.batstate-u.edu.ph" target="_blank"><i class='far fa-envelope'></i></a>
+              <a class="about__social" href="https://github.com/AJSahagun" target="_blank"><i class='fab fa-github-alt'></i></a>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+
+      <section id="hobbies" class="hobbies container">
+        <div class="hobbies__heading">
+          <h1 class="hobbies__title">Hobbies</h1>
+          <p class="hobbies__subtitle">Here are my hobbies</p>
+        </div>
+
+        <div class="hobbies__content">
+          <div class="hobbies__box">
+            <div class="hobbies__img"><img class="lazy loading" src="https://via.placeholder.com/600x400" data-src="/Reading.jpg" alt="Book"></div>
+            <div class="hobbies__name">Reading</div>
+          </div>
+
+          <div class="hobbies__box">
+            <div class="hobbies__img"><img class="lazy loading" src="https://via.placeholder.com/600x400" data-src="/Programming.jpg" alt="Laptop"></div>
+            <div class="hobbies__name">Programming</div>
+          </div>
+
+          <div class="hobbies__box">
+            <div class="hobbies__img"><img class="lazy loading" src="https://via.placeholder.com/600x400" data-src="/Gym.jpg" alt="Weights"></div>
+            <div class="hobbies__name">Exercise</div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="favorites" class="favorites container">
+        <h1 class="favorites__title">Favorites</h1>
+
+        <div class="favorites__container">
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">Math Rock</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="/Math-Rock.jpg" alt="Electric Guitar">
+          </div>
+
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">J-Pop</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="/Jpop.jpg" alt="Yayuyo J-Band">
+          </div>
+          
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">Podcast</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="Podcast.jpg" alt="Two Microphones">
+          </div>
+
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">Learning</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="Learning.jpg" alt="Notes">
+          </div>
+
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">Progress</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="Progress.jpg" alt="Climbing Mountain">
+          </div>
+
+          <div class="favorites__box">
+            <div class="favorites__text">
+              <h2 class="favorites__name">Enjoying Life</h2>
+              <a class="favorites__link" href="#">Learn More</a>
+            </div>
+            <img class="lazy loading" src="https://via.placeholder.com/400x600" data-src="Enjoying-Life.jpg" alt="Mug beside a rainy window">
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact" class="contact container section">
+        <h2 class="contact__heading">If You Have Something To Talk About</h1>
+        <a class="contact__btn btn" href="mailto:21-04332@g.batstate-u.edu.ph">Contact Me</a>
+      </section>
+    </main>
+
+
+    <div class="sticky__social">
+      <a href="https://www.facebook.com/AaronSahagun.AJ" target="_blank"><i class='fab fa-facebook-f'></i></a>
+      <a href="https://twitter.com/AJSahagun_" target="_blank"><i class='fab fa-twitter'></i></a>
+      <a href="mailto:21-04332@g.batstate-u.edu.ph" target="_blank"><i class='far fa-envelope'></i></a>
+      <a href="https://github.com/AJSahagun" target="_blank"><i class='fab fa-github-alt'></i></a>
+    </div>
+
+
+    <footer class="footer container section">
+      <h1 class="footer__heading">Disclaimer</h1>
+      <p class="footer__description">All media used belongs to their rightful owners</p>
+      
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/AaronSahagun.AJ" target="_blank"><i class='fab fa-facebook-f'></i></a>
+        <a href="https://twitter.com/AJSahagun_" target="_blank"><i class='fab fa-twitter'></i></a>
+        <a href="mailto:21-04332@g.batstate-u.edu.ph" target="_blank"><i class='far fa-envelope'></i></a>
+        <a href="https://github.com/AJSahagun" target="_blank"><i class='fab fa-github-alt'></i></a>
+      </div>
+
+      <p class="footer__copyright">Created by Aaron John Sahagun.</p>
+    </footer>
+
+    
+    <script type="module" src="./src/main.js"></script>
+  </body>
+
+</html>
